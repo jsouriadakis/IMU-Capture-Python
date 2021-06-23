@@ -1,0 +1,14 @@
+{
+  "require": {
+    "vlucas/phpdotenv": "^2.4",
+    "guzzlehttp/psr7": "^1.4",
+    "monolog/monolog": "^2.1",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "src/"
+    }
+  }
+}

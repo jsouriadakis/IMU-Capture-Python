@@ -1,0 +1,17 @@
+   // Accelerometer code
+   IMU.setAccelFS(3);
+   IMU.setAccelODR(5);
+   IMU.setAccelOffset(0.001094, -0.001956, -0.024317);
+   IMU.setAccelSlope (1.001249, 1.001332, 1.000763);
+
+   // Gyroscope code
+   IMU.setGyroFS(2);
+   IMU.setGyroODR(5);
+   IMU.setGyroOffset (-0.678192, 0.453033, 0.140472);
+   IMU.setGyroSlope (1.199865, 1.147166, 1.138433);
+
+   // Magnetometer code
+   IMU.setMagnetFS(0);
+   IMU.setMagnetODR(8);
+   IMU.setMagnetOffset(13.690186, 18.759766, -9.971924);
+   IMU.setMagnetSlope (1.126728, 1.133473, 1.297501);
